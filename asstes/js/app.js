@@ -61,6 +61,17 @@ $(function () {
 
   // about page leadership js end
 
+  //about review Slider
+  $('.about_review_slider').slick({
+    arrows:false,
+    asNavFor:'.about_review_slider_navs'
+  })
+  
+  $('.about_review_slider_navs').slick({
+    arrows:false,
+    asNavFor:'.about_review_slider'
+  })
+
   // about page instagram js start
   $('.about_instagram_slider').slick({
     arrows: false,
